@@ -1,0 +1,23 @@
+#+TITLE: TODO
+
+* API
+** DONE Add JSON endpoint with rocket_contrib json
+   CLOSED: [2020-03-15 Sun 15:04]
+   :LOGBOOK:
+   CLOCK: [2020-03-15 Sun 14:39]--[2020-03-15 Sun 15:04] =>  0:25
+   :END:
+** DONE OpenAPI spec generation
+   CLOSED: [2020-03-15 Sun 15:13]
+   :LOGBOOK:
+   CLOCK: [2020-03-15 Sun 15:04]--[2020-03-15 Sun 15:13] =>  0:09
+   :END:
+** DONE API consumption
+   CLOSED: [2020-03-15 Sun 15:29]
+   :LOGBOOK:
+   CLOCK: [2020-03-15 Sun 15:13]--[2020-03-15 Sun 15:29] =>  0:16
+   :END:
+* DONE proper howistart article for Rust
+  CLOSED: [2020-03-15 Sun 17:06]
+  :LOGBOOK:
+  CLOCK: [2020-03-15 Sun 15:32]--[2020-03-15 Sun 17:06] =>  1:34
+  :END:

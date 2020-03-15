@@ -1,10 +1,26 @@
 [package]
 name = "helloworld"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Christine Dodrill <me@christine.website>"]
 edition = "2018"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [dependencies]
-rocket = "0.4.3"
+rocket = "0.4.4"
+gethostname = "0.2.1"
+serde_json = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+psutil = "3.0.1"
+rocket_okapi = "^0.3"
+rocket_prometheus = "^0.4"
+schemars = "0.6"
+okapi = { version = "0.3", features = ["derive_json_schema"] }
+
+[dependencies.rocket_contrib]
+version = "0.4.4"
+default-features = false
+features = ["json"]
+
+[workspace]
+members = [
+  "./client"
+]
